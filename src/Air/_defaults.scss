@@ -1,0 +1,88 @@
+/* Content Defaults
+----------------------------------------------------------------*/
+
+.pun {
+	font: 81.25%/1.462em Arial, Helvetica, sans-serif;
+
+	table, td, th, input, select, optgroup, textarea, legend {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1em;
+	}
+
+	pre, code {
+		font-family: consolas, monaco, "bitstream vera sans mono", "courier new", courier, monospace;
+		font-size: 1em;
+	}
+
+	pre code {
+		font-size: 1em;
+	}
+
+	.code {
+		padding: 2px 4px;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: 0;
+		empty-cells: show;
+		width: 100%;
+	}
+
+	h1 {
+		font:2.154em/1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 7px 0;
+	}
+
+	h2, .hd h2 {
+		font: 1.462em/1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 7px 0;
+	}
+
+	h3 {
+		font-size: 1.154em;
+		line-height: 1.267em;
+		padding: 7px 0;
+	}
+
+	h4 {
+		font-size: 1.077em;
+		font-weight: bold;
+		padding: 7px 0;
+	}
+
+	h5, h6 {
+		font-size: 1em;
+		font-weight: bold;
+		padding: 7px 0;
+	}
+
+	p, ul, ol, dl, th, td, legend {
+		padding: 7px 0;
+	}
+
+	strong, th, span.warntext, p.warntext {
+		font-weight: bold;
+	}
+
+	em {
+		font-style: italic;
+	}
+
+	a, a:link, a:visited {
+		text-decoration: none;
+	}
+
+	a:hover, a:active, a:focus {
+		text-decoration: underline;
+	}
+
+	.actions span {
+		padding-left: 16px;
+		padding-right: 8px;
+		background: url(Air/img/bull.png) center left no-repeat;
+		display: inline-block;
+		line-height: normal;
+	}
+}
