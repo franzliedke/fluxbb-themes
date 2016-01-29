@@ -5,16 +5,6 @@
 	min-height: 1px;
 }
 
-* html .pun {
-	.inbox, #brdmain, .infldset, .crumbs, .pagepost, .block2col {
-		display: inline-block;
-	}
-
-	.inbox, #brdmain, .infldset, .crumbs, .pagepost, .block2col {
-		display: block;
-	}
-}
-
 .pun {
 	.inbox:after, #brdmain:after, .crumbs:after, .pagepost:after, .block2col:after {
 		content: " ";
