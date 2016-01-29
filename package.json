@@ -1,0 +1,15 @@
+{
+  "name": "fluxbb-themes",
+  "version": "1.0.0",
+  "description": "Themes for FluxBB",
+  "author": "Franz Liedke <franz@fluxbb.org>",
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1"
+  },
+  "scripts": {
+    "build": "node-sass --include-path src src/Air/Air.scss build/Air/Air.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "license": "MIT"
+}
