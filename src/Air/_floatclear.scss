@@ -1,18 +1,18 @@
 /* Generic Float Clear
 ----------------------------------------------------------------*/
 
-.pun .inbox, .pun #brdmain, .pun .crumbs, .pun .pagepost, .pun .block2col {
-	min-height: 1px;
-}
-
 .pun {
-	.inbox:after, #brdmain:after, .crumbs:after, .pagepost:after, .block2col:after {
-		content: " ";
-		display: block;
-		height: 0;
-		font-size: 0;
-		clear: both;
-		visibility: hidden;
+	.inbox, #brdmain, .crumbs, .pagepost, .block2col {
+		min-height: 1px;
+
+		&:after {
+			content: " ";
+			display: block;
+			height: 0;
+			font-size: 0;
+			clear: both;
+			visibility: hidden;
+		}
 	}
 
 	.block2col .inbox:after {
