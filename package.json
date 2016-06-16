@@ -8,7 +8,7 @@
     "nodemon": "^1.8.1"
   },
   "scripts": {
-    "build": "node-sass --include-path src src/Air/Air.scss build/Air/Air.css",
+    "build": "node-sass --output-style expanded --include-path src src/Air/Air.scss build/Air/Air.css",
     "watch": "nodemon -e scss -x \"npm run build\""
   },
   "license": "MIT"
