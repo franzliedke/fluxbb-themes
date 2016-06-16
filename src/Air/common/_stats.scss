@@ -1,0 +1,23 @@
+/* Stats
+----------------------------------------------------------------*/
+
+#brdstats {
+  .conl {
+    float: left;
+  }
+
+  .conr {
+    float: right;
+    text-align: right;
+  }
+
+  #onlinelist {
+    border-top-style: dotted;
+    border-top-width: 1px;
+    clear: both;
+
+    dt, dd {
+      display: inline;
+    }
+  }
+}

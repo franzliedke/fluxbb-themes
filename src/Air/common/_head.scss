@@ -1,0 +1,41 @@
+/* Logo, Description and Main Menu
+----------------------------------------------------------------*/
+
+#brdtitle {
+  h1 {
+    padding: 0 0 10px 0;
+  }
+}
+
+#brddesc {
+  border-top-style: dotted;
+  border-top-width: 1px;
+  padding: 10px 0;
+
+  p {
+    padding: 0;
+  }
+}
+
+#brdmenu {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    float: left;
+  }
+
+  a:link, a:visited {
+    border-right-style: solid;
+    border-width: 1px;
+    display: block;
+    min-width: 60px;
+    padding: 12px 16px 6px 8px;
+    white-space: nowrap;
+  }
+
+  a:hover, a:active, a:focus {
+    text-decoration: none;
+  }
+}

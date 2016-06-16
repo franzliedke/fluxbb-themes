@@ -1,0 +1,102 @@
+/* Breadcrumbs, Postlink, Pagination
+----------------------------------------------------------------*/
+
+.pun {
+  .linkst .inbox, .linksb .inbox, .postlinksb .inbox {
+    overflow: hidden;
+  }
+
+  .linksb, .postlinksb, .linkst, .crumbs {
+    clear: both;
+    position: relative;
+  }
+
+  .linkst .crumbs {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 1.462em;
+    line-height: 1.211em;
+    padding: 7px 0;
+  }
+
+  .linksb .crumbs, .postlinksb .crumbs {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 1.154em;
+  }
+
+  .linkst .crumbsplus .pagepost {
+    border-top-style: dotted;
+    border-top-width: 1px;
+  }
+
+  .linksb .crumbsplus .pagepost, .postlinksb .crumbsplus .pagepost {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+  }
+
+  .postlinksb .crumbs {
+    margin-right: 11em;
+  }
+
+  .crumbs li {
+    float: left;
+    padding-right: 0.4em;
+    white-space: nowrap;
+  }
+
+  .crumbs li strong {
+    font-weight: normal;
+  }
+
+  .pagelink {
+    float: left;
+    white-space: nowrap;
+
+    strong, a, span.spacer {
+      border-style: none none none solid;
+      border-width: 0 0 0 1px;
+      display: inline-block;
+      padding: 0 12px 0 10px;
+      margin-right: -6px;
+    }
+
+    .item1 {
+      border: 0;
+    }
+
+    .pages-label {
+      display: inline-block;
+    }
+  }
+
+  .postlink {
+    float: right;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .modbuttons {
+    float: right;
+    padding: 5px 0 3px 0;
+
+    input {
+      margin-left: 8px;
+    }
+  }
+
+  .subscribelink {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 33px;
+  }
+}
+
+#punindex {
+  .subscribelink {
+    top: 0px;
+  }
+
+  .linksb {
+    height: 12px;
+  }
+}
