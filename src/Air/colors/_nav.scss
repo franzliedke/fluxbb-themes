@@ -1,0 +1,18 @@
+/* Primary Navigation
+----------------------------------------------------------------*/
+
+#brdmenu {
+  background: #44699c;
+}
+
+#brdmenu a, #brdmenu a:link, #brdmenu a:visited {
+  background: #44699c;
+  border-color: #fff;
+  color: #d4dae2;
+}
+
+#brdmenu a:hover, #brdmenu a:active, #brdmenu a:focus {
+  background: #b50000;
+  border-color: #fff;
+  color: #fff;
+}

@@ -1,0 +1,91 @@
+/* Main Forms + Profile
+----------------------------------------------------------------*/
+
+.pun .blockform .box, #adstats, #adintro, #adalerts, #postpreview, #posterror {
+  border-color: #b9c5ce #d9e1e7;
+  background: #ebf1f5;
+}
+
+#punmisc #rules .box, #punhelp .box {
+  border-color: #b9c5ce #d9e1e7;
+  background: #f6f9fc;
+}
+
+.pun #quickpost h2, #punpost .blockform h2, #punedit .blockform h2, #posterror h2,
+#pundelete .blockform h2 {
+  background: #ebf1f5;
+  color: #357082;
+}
+
+.pun .forminfo {
+  background: #fff;
+  border-color: #dfe6ee;
+}
+
+#puninstall form#install .forminfo {
+  background: #44699c;
+  color: #fff;
+}
+
+.pun #posterror .error-info, .pun #adalerts p {
+  background: #ffffe1;
+  border-color: #dfe6ee;
+}
+
+#puninstall form#install .error-info {
+  background: #ffffe1;
+  border-color: #dfe6ee;
+  color: #333;
+}
+
+.pun .infldset, #adintro .inbox, #adstats .inbox {
+  background: #f6f9fc;
+  border-color: #dfe6ee;
+}
+
+.pun label, .pun legend, #adminconsole fieldset th {
+  color: #357082;
+}
+
+.pun fieldset p {
+  border-color: #b9c5ce;
+}
+
+.pun .blockmenu ul, .pun .blockmenu li {
+  border-color: #b9c5ce;
+}
+
+.pun .blockmenu a:hover, .pun .blockmenu a:active, .pun .blockmenu a:focus {
+  background: #ffffe6;
+}
+
+.pun .blockmenu .isactive a:link, .pun .blockmenu .isactive a:visited {
+  color: #333;
+  background: #f6f9fc;
+}
+
+.pun #viewprofile .box {
+  border-color: #b9c5ce #d9e1e7;
+  background: #ebf1f5;
+}
+
+.pun #viewprofile dt, #adstats dt {
+  color: #357082;
+}
+
+.pun #viewprofile dl, .pun #viewprofile dd, #adstats dl, #adstats dd {
+  border-color: #dfe6ee;
+}
+
+#adminconsole fieldset td.nodefault {
+  background: #d59b9b;
+}
+
+.pun .multiselect {
+  color: #357082;
+}
+
+.pun .checklist {
+  background: white;
+  border-color: #ccc;
+}

@@ -1,0 +1,39 @@
+/* Section Spacing and Borders
+----------------------------------------------------------------*/
+
+#brdmain {
+  border-style: solid none;
+  border-width: 2px 0;
+  margin-bottom: 12px;
+  padding: 12px 0;
+}
+
+#punindex #brdmain {
+  padding-top: 24px;
+}
+
+#punredirect #brdmain, #punmaint #brdmain {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#brdstats {
+  border-style: solid none none none;
+  border-width: 2px 0 0 0;
+  margin-top: 24px;
+  padding-top: 12px;
+}
+
+#quickpost {
+  border-style: solid none none none;
+  border-width: 2px 0 0 0;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+#announce {
+  border-style: solid none none none;
+  border-width: 2px 0 0 0;
+  padding-top: 3px;
+}

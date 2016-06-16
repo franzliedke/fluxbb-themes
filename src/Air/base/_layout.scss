@@ -1,0 +1,28 @@
+/* Page Layout
+----------------------------------------------------------------*/
+
+.pun {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 30px 40px;
+}
+
+#punredirect, #punmaint {
+  padding: 60px 20% 12px 20%;
+}
+
+#puninstall, #pundb_update {
+  padding: 20px 10%;
+}
+
+.pun .punwrap {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+#punredirect h2, #punmaint h2 {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  margin-bottom: 3px;
+}

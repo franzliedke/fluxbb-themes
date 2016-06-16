@@ -1,0 +1,177 @@
+.pun #brdmain .blocktable {
+  position: relative;
+}
+
+#punindex #brdmain .blocktable h2, #punsearch #vf h2 {
+  font: 1em/1.462em Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 1px 1px 0 1px;
+  padding-left: 8px;
+  position: absolute;
+  left: 0;
+  white-space: nowrap;
+  z-index: 100;
+}
+
+#punindex .blocktable th.tcl, #punsearch #vf th.tcl {
+  font-size: 0;
+  text-indent: -9999em;
+}
+
+.pun .blocktable .box {
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: -1px;
+  overflow: hidden;
+  position: relative;
+}
+
+* html .pun .blocktable .box {
+  display: inline-block;
+}
+
+.pun .blocktable table {
+  table-layout: fixed;
+  margin-bottom: -1px;
+}
+
+.pun .blocktable th {
+  padding: 7px 8px;
+  border-style: none none solid none;
+  border-width: 1px;
+  text-align: left;
+}
+
+.pun .blocktable td {
+  padding: 7px 8px;
+  line-height: 1.3077em;
+  border-style: none none solid none;
+  border-width: 1px;
+  text-align: left;
+}
+
+.pun .blocktable h3 {
+  font-size: 1.077em;
+  font-weight: bold;
+  padding: 0;
+}
+
+.pun .blocktable p {
+  padding: 0;
+}
+
+.pun .blocktable .tcl p {
+  padding: 5px 0 0 0;
+}
+
+.pun .blocktable .tcl {
+  width: auto;
+}
+
+.pun .blocktable .tc2, .pun .blocktable .tc3, .pun .blocktable .tcmod {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  width: 11%;
+}
+
+.pun .blocktable .tcr {
+  width: 30%;
+}
+
+.pun .blocktable td .newtext, .pun .blocktable td .pagestext, .pun .blocktable td .byuser {
+  white-space: nowrap;
+}
+
+.pun .blocktable .tcl h3 span.newtext {
+  font-size: 0.929em;
+  font-weight: normal;
+}
+
+.pun #vf td.tcl span.stickytext, .pun #vf td.tcl span.closedtext {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#punsearch #vf .tc2 {
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: left;
+  width: 18%;
+}
+
+#users1 .tcr {
+  width: 25%;
+}
+
+#users1 .tc2 {
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: left;
+  width: 25%;
+}
+
+#debug {
+  margin-top: 12px;
+}
+
+#debug .tcl {
+  width: 10%;
+}
+
+#punredirect #debug .tcl, #punmaint #debug .tcl {
+  width: 20%;
+}
+
+#debug .tcr {
+  width: 90%;
+  white-space: normal
+}
+
+#punindex .tcr .byuser {
+  display: block
+}
+
+#punindex td.tc2, #punindex td.tc3, #punindex td.tcr, .pun #vf td.tc2, .pun #vf td.tc3,
+.pun #vf td.tcr, #punindex td.tcl div.forumdesc, .pun #vf td.tcl span {
+  font-size: 0.923em;
+}
+
+.pun #vf td.tcl a {
+  font-weight: bold;
+}
+
+.pun #vf td.tcl span a {
+  font-weight: normal;
+}
+
+.pun .blocktable .tclcon {
+  min-height: 1px;
+  overflow: hidden;
+  padding: 0 11px 0 12px;
+  position: relative;
+}
+
+.pun .blocktable .tclcon div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pun .icon {
+  border-style: solid;
+  border-width: 8px;
+  float: left;
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+.pun .iposted .ipost {
+  font-weight: bold;
+  left: 0;
+  padding-left: 4px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 8px;
+}

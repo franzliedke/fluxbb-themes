@@ -1,0 +1,138 @@
+/* Content (includes other user content)
+----------------------------------------------------------------*/
+
+.pun .usercontent {
+  padding: 7px 0;
+}
+
+.pun .postmsg p, .pun .postmsg li, #punhelp p samp {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.pun .usercontent h1, .pun .usercontent h2, .pun .usercontent h3,
+.pun .usercontent h4, .pun .usercontent h5, .pun .usercontent h6 {
+  padding: 7px 0 0 0;
+}
+
+.pun .postmsg h5, #punhelp h5 {
+  font-size: 1.231em;
+  font-weight: bold;
+  padding: 7px 0;
+}
+
+.pun .usercontent ul, .pun .postmsg ul {
+  list-style: disc;
+  padding: 4px 13px 4px 30px;
+}
+
+.pun .usercontent ol, .pun .postmsg ol {
+  list-style: decimal;
+  padding: 4px 13px 4px 30px;
+}
+
+.pun .usercontent ol.alpha, .pun .postmsg ol.alpha {
+  list-style: lower-alpha;
+}
+
+.pun .usercontent li, .pun .postmsg li {
+  padding: 0 3px;
+}
+
+.pun .usercontent li p, .pun .postmsg li p {
+  padding: 0;
+}
+
+.pun span.bbu {
+  text-decoration: underline;
+}
+
+.pun span.bbs, .pun del {
+  text-decoration: line-through;
+}
+
+.pun .postmsg ins, #punhelp samp ins {
+  text-decoration: none;
+}
+
+.pun .blockpost .postmsg .postedit {
+  font-size: 0.857em;
+}
+
+.pun .blockform .postsignature, .pun .blockpost .postsignature {
+  font-size: 0.923em;
+}
+
+.pun .codebox {
+  border-style: solid;
+  border-width: 1px;
+  margin: 0.75em 1em;
+  padding: 0;
+}
+
+.pun .quotebox {
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  margin: 0.75em 1em;
+  padding: 0 0.75em;
+}
+
+.pun .quotebox cite {
+  display: block;
+  padding: 0.75em 0 0 0;
+  font-weight: bold;
+  line-height: 1.462em;
+}
+
+.pun .quotebox blockquote {
+  overflow: hidden;
+  width: 100%;
+}
+
+.pun .codebox pre {
+  overflow: auto;
+  width: 100%;
+  direction: ltr;
+  text-align: left;
+}
+
+* html .pun .codebox pre {
+  padding-bottom: 10px;
+}
+
+*:first-child+html .pun .codebox pre {
+  padding-bottom: 10px;
+}
+
+.pun .codebox pre code {
+  padding: 0.5em;
+  white-space: pre;
+}
+
+.pun div[class*=codebox] pre code {
+  display: inline-block;
+}
+
+* html .pun .codebox pre code {
+  display: block;
+}
+
+.pun .codebox pre.vscroll {
+  height: 32em;
+  overflow: auto;
+  overflow-y: auto
+}
+
+.pun .postmsg img, #punhelp samp img {
+  vertical-align: text-top;
+}
+
+.pun .postmsg .postimg img {
+  max-width: 98%;
+  vertical-align: middle;
+  margin: 7px 0.5em 7px 0;
+}
+
+.pun .postmsg .postimg a:link img, .pun .postmsg .postimg a:visited img {
+  border-style: solid;
+  border-width: 2px;
+}

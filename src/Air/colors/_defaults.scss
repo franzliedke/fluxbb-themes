@@ -1,0 +1,39 @@
+/* Basic defaults and Common Items
+----------------------------------------------------------------*/
+
+html, body, .pun {
+  background: #f6f9fc;
+  color: #333;
+}
+
+.pun .punwrap {
+  background: #fff;
+  border-color: #cad7e1;
+  color: #566579;
+}
+
+#brdtitle #brddesc, .pun .pagepost, #brdstats #onlinelist, #brdfooter #searchlinks, #brdfooter #modcontrols,
+#punmaint h2, #punredirect h2, #adminconsole .submittop, .pun #debugtime, .pun .pagelink a, .pun .pagelink * {
+  border-color: #b9c5ce;
+}
+
+.pun a, .pun a:link, .pun a:visited {
+  color: #2365B0;
+}
+
+.pun a:hover, .pun a:active, .pun a:focus {
+  color: #b50000;
+}
+
+.pun .postmsg .postimg a:link img, .pun .postmsg .postimg a:visited img {
+  border-color: #22538a;
+}
+
+.pun .postmsg .postimg a:hover img, .pun .postmsg .postimg a:active img, .pun .postmsg .postimg a:focus img {
+  border-color: #b50000;
+}
+
+.pun .code {
+  color: #257ec7;
+  background-color: #f1f5f9;
+}
