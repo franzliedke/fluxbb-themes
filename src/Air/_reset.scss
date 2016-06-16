@@ -2,29 +2,29 @@
 ----------------------------------------------------------------*/
 
 %block-reset {
-	border: 0;
-	font-style: normal;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
+  border: 0;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
-	@extend %block-reset;
+  @extend %block-reset;
 }
 
 .pun {
-	table, div, form, p, h1, h2, h3, h4, h5, h6, pre, blockquote, ul, ol, li, dl, dt, dd, th, td, fieldset, legend, img, abbr, cite {
-		@extend %block-reset;
-	}
+  table, div, form, p, h1, h2, h3, h4, h5, h6, pre, blockquote, ul, ol, li, dl, dt, dd, th, td, fieldset, legend, img, abbr, cite {
+    @extend %block-reset;
+  }
 
-	ul, ol {
-		list-style: none;
-	}
+  ul, ol {
+    list-style: none;
+  }
 
-	select {
-		padding-bottom: 1px;
-		padding-top: 1px;
-		padding-right: 1px;
-	}
+  select {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+  }
 }

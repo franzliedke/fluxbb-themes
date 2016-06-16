@@ -2,25 +2,25 @@
 ----------------------------------------------------------------*/
 
 .pun {
-	.inbox, #brdmain, .crumbs, .pagepost, .block2col {
-		min-height: 1px;
+  .inbox, #brdmain, .crumbs, .pagepost, .block2col {
+    min-height: 1px;
 
-		&:after {
-			content: " ";
-			display: block;
-			height: 0;
-			font-size: 0;
-			clear: both;
-			visibility: hidden;
-		}
-	}
+    &:after {
+      content: " ";
+      display: block;
+      height: 0;
+      font-size: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  }
 
-	.block2col .inbox:after {
-		content: none;
-		clear: none;
-	}
+  .block2col .inbox:after {
+    content: none;
+    clear: none;
+  }
 }
 
 .clearl {
-	clear: left;
+  clear: left;
 }
