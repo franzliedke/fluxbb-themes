@@ -1,12 +1,16 @@
 /* Hidden Elements
 ----------------------------------------------------------------*/
 
-#brdfooter h2, #brdstats h2, #debug h2, #brdstats .conl dt, #brdstats .conr dt, #modcontrols dt,
-#searchlinks dt, div.postright h3, .pun .subscribelink span, #announce .hd, #reportform h2, #punmoderate #vf h2,
-#punviewforum #vf h2, .pun .required strong span, .pun .icon div {
+%accessible-hide {
   display: block;
   overflow: hidden;
   position: absolute;
   text-indent: -9999em;
   width: 0;
+}
+
+#brdfooter h2, #brdstats h2, #debug h2, #brdstats .conl dt, #brdstats .conr dt, #modcontrols dt,
+#searchlinks dt, div.postright h3, .pun .subscribelink span, #announce .hd, #reportform h2, #punmoderate #vf h2,
+#punviewforum #vf h2, .pun .required strong span, .pun .icon div {
+  @extend %accessible-hide;
 }
