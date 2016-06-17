@@ -1,46 +1,54 @@
 /* Profile / Admin
 ----------------------------------------------------------------*/
 
-.pun .blockmenu {
-  width: 13em;
-  float: left;
-  padding-bottom: 12px;
-}
+.pun {
+  .blockmenu {
+    width: 13em;
+    float: left;
+    padding-bottom: 12px;
+  }
 
-.pun .block2col .blockform, .pun .block2col .block {
-  margin-left: 15em;
-}
+  .block2col {
+    .blockform, .block {
+      margin-left: 15em;
+    }
+  }
 
-.pun .blockmenu .block2 {
-  padding-top: 19px;
-}
+  .blockmenu {
+    .block2 {
+      padding-top: 19px;
+    }
 
-.pun .blockmenu ul {
-  border-top-style: dotted;
-  border-top-width: 1px;
-  padding: 0;
-}
+    ul {
+      border-top-style: dotted;
+      border-top-width: 1px;
+      padding: 0;
+    }
 
-.pun .blockmenu li {
-  border-bottom-style: dotted;
-  border-bottom-width: 1px;
-  font-weight: bold;
-  padding: 0;
-}
+    li {
+      border-bottom-style: dotted;
+      border-bottom-width: 1px;
+      font-weight: bold;
+      padding: 0;
+    }
 
-.pun .blockmenu a:link, .pun .blockmenu a:visited {
-  display: block;
-  padding: 9px 6px 3px 6px;
-  min-height: 1px;
-  text-decoration: none;
-}
+    a:link, a:visited {
+      display: block;
+      padding: 9px 6px 3px 6px;
+      min-height: 1px;
+      text-decoration: none;
+    }
 
-* html .pun .blockmenu a:link,  * html .pun .blockmenu a:visited {
-  height: 1%;
-}
+    * html & {
+      a:link, a:visited {
+        height: 1%;
+      }
+    }
 
-.pun .blockmenu a:hover, .pun .blockmenu a:active, .pun .blockmenu a:focus {
-  text-decoration: none;
+    a:hover, a:active, a:focus {
+      text-decoration: none;
+    }
+  }
 }
 
 #viewprofile .box {

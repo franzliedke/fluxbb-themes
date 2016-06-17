@@ -18,74 +18,80 @@
   text-indent: -9999em;
 }
 
-.pun .blocktable .box {
-  border-style: solid;
-  border-width: 1px;
-  margin-bottom: -1px;
-  overflow: hidden;
-  position: relative;
-}
+.pun {
+  .blocktable {
+    .box {
+      border-style: solid;
+      border-width: 1px;
+      margin-bottom: -1px;
+      overflow: hidden;
+      position: relative;
 
-* html .pun .blocktable .box {
-  display: inline-block;
-}
+      * html & {
+        display: inline-block;
+      }
+    }
 
-.pun .blocktable table {
-  table-layout: fixed;
-  margin-bottom: -1px;
-}
+    table {
+      table-layout: fixed;
+      margin-bottom: -1px;
+    }
 
-.pun .blocktable th {
-  padding: 7px 8px;
-  border-style: none none solid none;
-  border-width: 1px;
-  text-align: left;
-}
+    th {
+      padding: 7px 8px;
+      border-style: none none solid none;
+      border-width: 1px;
+      text-align: left;
+    }
 
-.pun .blocktable td {
-  padding: 7px 8px;
-  line-height: 1.3077em;
-  border-style: none none solid none;
-  border-width: 1px;
-  text-align: left;
-}
+    td {
+      padding: 7px 8px;
+      line-height: 1.3077em;
+      border-style: none none solid none;
+      border-width: 1px;
+      text-align: left;
+    }
 
-.pun .blocktable h3 {
-  font-size: 1.077em;
-  font-weight: bold;
-  padding: 0;
-}
+    h3 {
+      font-size: 1.077em;
+      font-weight: bold;
+      padding: 0;
+    }
 
-.pun .blocktable p {
-  padding: 0;
-}
+    p {
+      padding: 0;
+    }
 
-.pun .blocktable .tcl p {
-  padding: 5px 0 0 0;
-}
+    .tcl {
+      p {
+        padding: 5px 0 0 0;
+      }
 
-.pun .blocktable .tcl {
-  width: auto;
-}
+      width: auto;
+    }
 
-.pun .blocktable .tc2, .pun .blocktable .tc3, .pun .blocktable .tcmod {
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-  width: 11%;
-}
+    .tc2, .tc3, .tcmod {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+      width: 11%;
+    }
 
-.pun .blocktable .tcr {
-  width: 30%;
-}
+    .tcr {
+      width: 30%;
+    }
 
-.pun .blocktable td .newtext, .pun .blocktable td .pagestext, .pun .blocktable td .byuser {
-  white-space: nowrap;
-}
+    td {
+      .newtext, .pagestext, .byuser {
+        white-space: nowrap;
+      }
+    }
 
-.pun .blocktable .tcl h3 span.newtext {
-  font-size: 0.929em;
-  font-weight: normal;
+    .tcl h3 span.newtext {
+      font-size: 0.929em;
+      font-weight: normal;
+    }
+  }
 }
 
 .pun #vf td.tcl span.stickytext, .pun #vf td.tcl span.closedtext {
